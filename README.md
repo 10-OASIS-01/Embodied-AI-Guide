@@ -152,22 +152,35 @@
 
 机器人学习 Robot Learning 的发展: [zhihu](https://zhuanlan.zhihu.com/p/26988866)
 
+<section id="robot_autonomy"></section>
+
+### 3.3.1 ETH & TTIC & UdeM Robot Autonomy - 自主机器人
+
+[课程视频](https://www.edx.org/learn/technology/eth-zurich-self-driving-cars-with-duckietown) ｜ [课程网站](https://duckietown.com/self-driving-cars-with-duckietown-mooc/)
+
+该课程由ETH苏黎世、TTIC与蒙特利尔大学联合开设，围绕Duckietown平台系统讲解自主机器人的构建过程，涵盖感知、控制、建模、强化学习等模块。强调完整的感知-决策-控制闭环系统设计，并通过项目实践推动学生掌握从0构建并部署一个具备自主导航能力的机器人智能体。适合希望初步了解机器人系统和Robot Learning的人。
+
 <section id="rl"></section>
 
-### 3.3.1 Reinforcement Learning - 强化学习
+### 3.3.2 Reinforcement Learning - 强化学习
 * 推荐直接跟着李宏毅老师一套走: bilibili上课+刷蘑菇书巩固+gymnasium动手实践, 重点了解一下PPO。
   * 台湾大学李宏毅公开课: [bilibili](https://www.bilibili.com/video/BV1XP4y1d7Bk/?spm_id_from=333.337.search-card.all.click&vd_source=ab9cf5374617c2867aaea34af29b53c9)<br>
   * EasyRL - 蘑菇书: [website](https://datawhalechina.github.io/easy-rl/#/), 基本是配套李宏毅老师的课程<br>
   * 实践[gymnasium](https://gymnasium.farama.org/)，可以尝试一下把玩一下登月着陆等经典强化学习场景，思考+动手，观察阶段agent的表现并分析，有助于深入理解强化学习
-<!-- * UCB CS285 深度强化学习: [website](https://rail.eecs.berkeley.edu/deeprlcourse/) | [youtube](https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps)<br> -->
-<!-- * 强化学习的数学原理 - 西湖大学赵世钰: [bilibili](https://space.bilibili.com/2044042934/channel/collectiondetail?sid=748665)<br> -->
-
 <section id="il"></section>
 
-### 3.3.2 Imitation Learning - 模仿学习
+### 3.3.3 Imitation Learning - 模仿学习
 
 * 《模仿学习简洁教程》 - 南京大学LAMDA: [PDF](https://www.lamda.nju.edu.cn/xut/Imitation_Learning.pdf)<br>
 * Supervised Policy Learning for Real Robots, RSS 2024 Workshop 教程：真实机器人的监督策略学习, [bilibili](https://www.bilibili.com/video/BV1Fx4y1s7if/?buvid=XY415384A771A6C681C9BEB3817566ED57724&is_story_h5=false&mid=ORgXkVzTHaOKTsml0RX5Gw%3D%3D&plat_id=240&share_from=ugc&share_medium=android&share_plat=android&share_source=WEIXIN&share_tag=s_i&spmid=dt.space-dt.0.0&timestamp=1721464513&unique_k=Cqj5d9J&up_id=2185804&vd_source=ab9cf5374617c2867aaea34af29b53c9)
+
+<section id="mila_robot_learning"></section>
+
+### 3.3.4 MILA & UdeM Robot Learning - 机器人学习课程
+
+[课程视频](https://www.youtube.com/playlist?list=PLMe2pHxzxHp-UJ1jd-uuGSGK7P7Phtm-f) ｜ [课程网站](https://fracturedplane.notion.site/Robot-Learning-IFT6163-Scaling-Learning-for-Real-World-Agents-Apprentissage-robotique-Apprentiss-14a2148572768017864af202952c4b7e)
+
+由MILA和蒙特利尔大学开设的课程，聚焦于将深度强化学习等方法扩展到现实世界中的机器人智能体，重点探讨了现有学习技术的局限，并研究如何构建更强健、泛化能力更强的智能体系统。适合希望了解机器学习，强化学习算法在机器人领域的前沿应用的同学。
 
 <!-- * 实践[RoboTwin]() -->
 
